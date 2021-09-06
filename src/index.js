@@ -1,3 +1,2 @@
-import { hey } from './sample'
-
-hey()
+import { drawGraph } from './sample'
+drawGraph()
