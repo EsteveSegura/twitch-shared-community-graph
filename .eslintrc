@@ -1,0 +1,18 @@
+{
+  "extends": "google",
+  "ignorePatterns": ["dist/*"],
+  "rules": {
+    // Additional, per-project rules...
+    "max-len": [
+      2,
+      {
+        "code": 120
+      }
+    ],
+    "require-jsdoc": 0
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  }
+}
