@@ -23,9 +23,8 @@ $ cd twitch-shared-community-graph
 
 # install NodeJS if is not installed
 
-# this will show up the help message
-$ cd src && npm run start
+$ cd src && npm run build
 ```
 
-## twitch-shared-community-graph
-MIT © Rams0n1t0
+## License
+MIT © twitch-shared-community-graph
