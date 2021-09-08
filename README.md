@@ -8,11 +8,7 @@
 
 </p>
 
-![Alt Text](https://i.imgur.com/hYxSBty.gif)
-
-
-
-
+![Graph gif](./docs/graph.gif)
 
 ## Installation
 
@@ -30,7 +26,6 @@ $ cd twitch-shared-community-graph
 # this will show up the help message
 $ cd src && npm run start
 ```
-
 
 ## twitch-shared-community-graph
 MIT © Rams0n1t0
