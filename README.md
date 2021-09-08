@@ -23,7 +23,7 @@ $ cd twitch-shared-community-graph
 
 # install NodeJS if is not installed
 
-$ cd src && npm run build
+$ cd src && npm run serve
 ```
 
 ## License
