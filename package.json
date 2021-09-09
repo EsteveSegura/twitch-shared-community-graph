@@ -4,7 +4,7 @@
   "description": "Small project to show a graph of shared communities.",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack --mode production && servor dist index.html 8080 --reload --browse" ,
+    "serve": "webpack --mode production && servor dist index.html 8080 --reload --browse",
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
     "lint": "eslint .",
