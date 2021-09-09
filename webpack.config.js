@@ -28,7 +28,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        {from: './src/presentation/Home/css/main.css', to: './main.css'},
+        { from: './src/presentation/Home/css/main.css', to: './main.css' },
       ],
     }),
   ],
