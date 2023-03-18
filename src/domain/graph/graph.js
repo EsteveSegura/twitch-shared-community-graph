@@ -41,7 +41,7 @@ export default class Graph {
 
     setTimeout(() => {
       this.renderer.killForceAtlas2();
-    }, ms || 3000);
+    }, ms || 10000);
   }
 
   // ToDo: Beautify this part and split in functions/files

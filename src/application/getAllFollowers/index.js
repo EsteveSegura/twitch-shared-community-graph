@@ -4,9 +4,9 @@ import User from '../../domain/user/user';
 async function getAllFollowers(id) {
   const getAllFollowersReponse = await getAllFollowersService(id);
   const streamerRelated = new User({id: getAllFollowersReponse.id, nickName: getAllFollowersReponse.streamer});
-
+  
   const users = getAllFollowersReponse.followers.map((user) => {
-    const userDomain = new User({id: user._id, nickName: user.display_name});
+    const userDomain = new User({id: user.id, nickName: user.nickName});
     userDomain.addRelationShip(streamerRelated);
 
     return userDomain;
